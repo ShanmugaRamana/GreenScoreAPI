@@ -13,6 +13,6 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "Your Name",
+  "author": "Shanmuga Ramana N",
   "license": "MIT"
 }
