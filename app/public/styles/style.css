@@ -1,0 +1,238 @@
+/* Your existing CSS */
+body {
+    background-color:white;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}   
+
+.header {
+    background-color:#ffffff; /* Adjusted RGBA value */
+    color: black;
+    padding: 7px 0; 
+    display: flex;
+}
+
+.header h1{
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 21.5px;
+    margin-left:5px;
+}
+.header img {
+    margin: 0;
+    height: auto;
+    margin-left: 30px; 
+    cursor: pointer;
+    height: 35px;
+    margin-top: 20px;
+}
+.header nav{
+    margin-top: 0px;
+    margin-left: 480px;
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding:  0 ;
+}
+
+.header nav  ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 45px;
+    text-decoration: none;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.header nav ul li button{
+    color: white;
+    background-color:black;
+    border-radius: 30px;
+    padding:15px 0;
+    width:150%;
+    font-weight: 600;
+    margin-top: 0px;
+    cursor:pointer;
+    border: 0;
+    width: 120px;
+    font-size: 15px;
+}
+.header nav ul li:hover {
+    text-decoration: underline;
+}
+
+nav ul li i {
+    margin-left: 5px;
+    color: black;
+}
+
+.line {
+    margin-top: -20px;
+    height: 2px;
+    background-color: black;
+}
+.scrollable-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    flex-direction: column;
+}
+.content{
+    padding: 20px;
+}
+.content video{
+    margin-top:-300px;
+    margin-left:600px;
+}
+.content h1{
+    font-weight:300;
+    font-size:47px ;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.content h4{
+    font-weight:600;
+    margin-left: 50px;
+}
+.content button{
+    color: white;
+    background-color: black;
+    font-size: 17.5px;
+    height: 50px;
+    width: 200px;
+    margin-left: 47px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    position: relative; /* Add this */
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 200px;
+    background-color:white;
+    height: calc(100vh - 400px); /* Adjust this value as needed */
+    margin-top: 79px;
+    margin-left: 40px;
+    position: sticky; /* Make the sidebar sticky */
+    top: 50px; /* Adjust this value to control when it sticks */
+    overflow-y: auto; /* Allow vertical scrolling if content overflows */
+    height: 300px;
+    flex-shrink: 0;
+    height: fit-content;
+    max-height: 100vh;
+}
+
+.content .sidebar a {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.sidebar a.active {
+    border-left-color: #0000FF;
+    font-weight: bold;
+}
+.sidebar a:hover, .sidebar a.active {
+    background-color: #e7e7e7;
+}
+.content .right-scroll {
+    padding-right: 20px;
+    margin-left: 100px;
+    margin-top: 0px;
+    flex-grow: 1; /* Allow this section to grow and fill available space */
+    height: calc(100vh - 400px); /* Adjust this value as needed */
+    overflow-y: auto; /* Make this section scrollable */
+}
+
+#overview h2{
+    margin: top 200px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+#overview p{
+    font-size: 20px;
+    text-align: left;
+}
+#overview img {
+    margin-left: 260px;
+    width: 600px;
+}
+.content .right-scroll::-webkit-scrollbar {
+    display: none;
+}
+#Benfits{
+    margin-top: 50px;
+}
+#Benefits h2{
+    text-align: center;
+    margin: top 200px;
+    font-size: 30px;
+    font-weight: 400;
+}
+#Benefits h1{
+    font-size: 20px;
+    font-weight: 600;
+} 
+
+.benefits-list {
+    display:flex;
+}
+
+.right-scroll section{
+    margin-top: 120px;
+}
+
+.content .flex .right-scroll .benefits-list img{
+    margin-left: 20px;
+}
+.content .flex .right-scroll .benefits-list section{
+    margin-top: -60px;
+    margin-left: 20px;
+}
+.content .flex .right-scroll .benefits-list #benefit-1 h1{
+    font-size: 20px;
+    margin-left:10px;
+}
+.content .flex .right-scroll .benefits-list #benefit-1 p{
+    text-align:center;
+}
+.content .flex .right-scroll .benefits-list #benefit-1 img{
+    margin-left:100px;
+}
+.content .flex .right-scroll .benefits-list #benefit-2 img{
+    margin-left:100px;
+}
+.content .flex .right-scroll .benefits-list h1{
+    font-size: 20px;
+    text-align: center;
+}
+.content .flex .right-scroll .benefits-list #benefit-3 p{
+    text-align:center;
+    margin-left: 20px;
+}
+.content .flex .right-scroll .benefits-list #benefit-2 p{
+    text-align:center;
+    margin-left: 20px;
+}
+.content .flex .right-scroll .benefits-list #benefit-3 img{
+    margin-left: 120px;
+}
+.sidebar a.active {
+    background-color: #e7e7e7;
+    border-left: 3px solid #0000FF; /* Optional: add a border to the active link */
+}
+
+footer{
+    flex-shrink: 0;
+    background-color: black;
+    color: white;
+    padding:40px;
+}
