@@ -108,9 +108,3 @@ nav ul li i {
 
 
 
-footer{
-    flex-shrink: 0;
-    background-color: black;
-    color: white;
-    padding:40px;
-}
