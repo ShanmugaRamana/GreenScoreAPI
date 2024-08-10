@@ -131,15 +131,16 @@ footer{
         margin: 0;
         padding: 0;    
     }
+   
     .header img{
-        width: 150px;
-        height: 150px;
+        width: 50px;
+        height: 50px;
         margin-left:20px;
     }
     .header h1{
         margin-left: 10px;
-        margin-top: 53px;
-        font-size: 55px;
+        margin-top: 27px;
+        font-size: 25px;
     }
     .header nav{
         display: none;
@@ -148,34 +149,35 @@ footer{
         display: block; /* Show the button */
         margin: 20px auto;
         padding: 10px 20px;
-        font-size: 76px;
+        font-size: 26px;
         cursor: pointer;
         background-color: white;
         color: black;
         border: none;
         border-radius: 5px;
-        margin-left:710px;
-        margin-top: -150px;
+        margin-left:20px;
+        margin-top: -65px;
+        margin-left: 350px;
     }
 
     #toggle-Content {
         display: none; /* Keep the content hidden initially */
         position: fixed; /* Fixed position to stay in place */
-        width: 300px; /* Width of the toggle content */
-        height: 1000vh; /* Full viewport height */
+        width: 100px; /* Width of the toggle content */
+        height: 100vh; /* Full viewport height */
         background-color: black;
         color: white;
         padding: 30px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: shadow effect */
         z-index: 1000; /* Ensure it appears above other content */
-        margin-left: 420px;
+        margin-left: 120px;
         margin-top: 5px;
-        width: 360px;
+        width: 160px;
     }
 
     #toggle-Content nav ul{
         list-style-type: none;
-        font-size: 30px;
+        font-size: 17px;
     }
     #toggle-Content nav ul li{
         margin-bottom: 30px;
@@ -183,10 +185,10 @@ footer{
     #toggle-Content nav ul li button{
         color: black;
         background-color: white;
-        font-size: 25px;
+        font-size: 15px;
         border-radius: 40px;
-        width: 170px;
-        height: 70px;
+        width: 100px;
+        height: 30px;
         margin-top: 100px;
     }
     .line{
@@ -199,16 +201,32 @@ footer{
         display: block;
     }
     .content-frame .content-display h1{
-        font-weight: 500;
-        font-size: 40px;
-        margin-left: 40px;
+        margin-top: 60px;
+        font-weight: 400;
+        font-size: 25px;
+        margin-left: 30px;
         text-align: left;
     }
-    .content-frame .content-display video{
-        margin-left: 40px;
-        width: 700px;
-        height: 600px;
+    .content-frame .content-display h4{
+        margin-left: 27px;
+        margin-top: 20px;
+        font-weight: 500;
     }
+    .content-frame .content-display button{
+        background-color: black;
+        color: white;
+        font-size: 17px;
+        width:200px;
+        height: 40px;
+        margin-left:26px;
+    }
+    .content-frame .content-display video{
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 350px;
+        height: 200px;
+    }
+    
 
 
 }
