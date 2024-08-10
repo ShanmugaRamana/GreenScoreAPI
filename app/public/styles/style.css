@@ -106,5 +106,84 @@ nav ul li i {
     cursor: pointer;
 }
 
+.toggle-button {
+    display: none; /* Hide by default */
+}
 
+
+footer{
+    background-color: black;
+    color: white;
+    height: 124px;
+}
+
+
+@media (min-width: 375px) and (max-width: 424px) {
+    body {
+        background-color:white;
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        padding: 0;    
+    }
+    .header img{
+        width: 150px;
+        height: 150px;
+        margin-left:20px;
+    }
+    .header h1{
+        margin-left: 10px;
+        margin-top: 53px;
+        font-size: 55px;
+    }
+    #toggle-Button {
+        display: block; /* Show the button */
+        margin: 20px auto;
+        padding: 10px 20px;
+        font-size: 76px;
+        cursor: pointer;
+        background-color: white;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        margin-left:710px;
+        margin-top: -150px;
+    }
+
+    #toggle-Content {
+        display: none; /* Keep the content hidden initially */
+        position: fixed; /* Fixed position to stay in place */
+        width: 300px; /* Width of the toggle content */
+        height: 1000vh; /* Full viewport height */
+        background-color: black;
+        color: white;
+        padding: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: shadow effect */
+        z-index: 1000; /* Ensure it appears above other content */
+        margin-left: 420px;
+        margin-top: 5px;
+        width: 360px;
+    }
+
+    #toggle-Content nav ul{
+        list-style-type: none;
+        font-size: 30px;
+    }
+    #toggle-Content nav ul li{
+        margin-bottom: 30px;
+    }
+    #toggle-Content nav ul li button{
+        color: black;
+        background-color: white;
+        font-size: 25px;
+        border-radius: 40px;
+        width: 170px;
+        height: 70px;
+        margin-top: 100px;
+    }
+    .line{
+        width: 100vh
+    }
+    
+}
+  
 
