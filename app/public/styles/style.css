@@ -106,8 +106,14 @@ nav ul li i {
     cursor: pointer;
 }
 
-.toggle-button {
+#toggle-Button {
     display: none; /* Hide by default */
+}
+#toggle-Content{
+    display: none;
+}
+.content-display{
+    display: none;
 }
 
 
@@ -186,6 +192,24 @@ footer{
     .line{
         width: 100vh
     }
+    .scrollable-content .content{
+        display: none;
+    }
+    .content-frame .content-display{
+        display: block;
+    }
+    .content-frame .content-display h1{
+        font-weight: 500;
+        font-size: 40px;
+        margin-left: 40px;
+        text-align: left;
+    }
+    .content-frame .content-display video{
+        margin-left: 40px;
+        width: 700px;
+        height: 600px;
+    }
+
 
 }
   
