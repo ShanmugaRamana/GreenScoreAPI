@@ -135,6 +135,9 @@ footer{
         margin-top: 53px;
         font-size: 55px;
     }
+    .header nav{
+        display: none;
+    }
     #toggle-Button {
         display: block; /* Show the button */
         margin: 20px auto;
@@ -183,7 +186,7 @@ footer{
     .line{
         width: 100vh
     }
-    
+
 }
   
 
